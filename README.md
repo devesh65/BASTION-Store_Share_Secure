@@ -20,23 +20,23 @@ A Django-based secure file storage application with AWS S3 integration.
 
 ## Installation
 
-1. Clone the repository:
+<!--1. Clone the repository:
 ```bash
 git clone https://github.com/Ayush12708/BASTION-Store-Secure-Secure.git
-```
+```-->
 
-2. Create a virtual environment:
+Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-3. Install dependencies:
+Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Configure AWS credentials in `finalproject/settings.py`:
+Configure AWS credentials in `finalproject/settings.py`:
 ```python
 AWS_ACCESS_KEY_ID = 'your_access_key'
 AWS_SECRET_ACCESS_KEY = 'your_secret_key'
@@ -49,7 +49,7 @@ AWS_S3_REGION_NAME = 'your_region'
 python manage.py migrate
 ```
 
-6. Start the development server:
+Start the development server:
 ```bash
 python manage.py runserver
 ```
